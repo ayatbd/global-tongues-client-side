@@ -3,8 +3,6 @@ import logo from "../../assets/images/logo.png";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { FaPowerOff, FaUser } from "react-icons/fa";
-import { RxDashboard } from "react-icons/rx";
 import { BsFillBrightnessHighFill, BsMoonStarsFill } from "react-icons/bs";
 import Swal from "sweetalert2";
 import useTheme from "../../hooks/useTheme";
